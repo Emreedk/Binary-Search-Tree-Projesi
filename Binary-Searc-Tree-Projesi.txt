@@ -1,0 +1,23 @@
+Binary Search Tree
+
+[7,5,1,8,3,6,0,9,4,2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+
+Dizideki referans elemandan küçük olanlar solda, büyük olanlar sağda bulunur.
+
+				5
+
+
+		3				7
+
+
+	1	          4		                 6		8
+
+          0	         2						          9
+
+
+ Average Case: O(logn)
+    Worst Case: O(n)
+
+    Time Complexity: n -> n/2 -> n/4 -> 1 -> 2^x=n -> logn
+
